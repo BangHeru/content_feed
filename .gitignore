@@ -14,7 +14,7 @@ frontend/.env.local
 frontend/.env.development.local
 frontend/.env.test.local
 frontend/.env.production.local
-frontend/.gitignone
+frontend/.gitignore
 
 # to create new branch : git checkout -b dev
 # commit to new branch : git commit -m "Add commit to dev branch"
