@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import ContentFeed from './components/listdata';
+import Form from './components/insertdata';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+const elemet = (
+    <div>
+        <Form />
+        <ContentFeed /> 
+    </div>
+);
+
+
+ReactDOM.render(
+    
+    // <ContentFeed />,
+    // document.getElementById('root')
+    
+    
+   elemet,
+    document.getElementById('root')
+   
+)
